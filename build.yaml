@@ -1,0 +1,10 @@
+---
+include:
+  - board: nice_nano_v2
+    shield: crosses_left
+    artifact-name: crosses_54_left
+  - board: nice_nano_v2
+    shield: crosses_right
+    artifact-name: crosses_54_right
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
