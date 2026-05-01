@@ -1,4 +1,4 @@
-# zmk-for-crosses46-dual
+# zmk-for-crosses54-dual
 
 ## This template is only compatible with the wireless Crosses46 keyboard whose PCB I have modified, not with the original pins.
 
