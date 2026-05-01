@@ -1,0 +1,11 @@
+#define MOUSE 8
+
+&trackball_central_listener {
+    precision_override {
+        layers = <MOUSE>;
+        input-processors
+            = <&zip_xy_scaler 1 4>
+            , <&zip_ble_report_rate_limit>
+            ;
+    };
+};
